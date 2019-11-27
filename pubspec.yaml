@@ -5,12 +5,15 @@ author: yohom <382146139@qq.com>
 homepage: https://github.com/fluttify-project/amap_core_fluttify
 
 environment:
-  sdk: ">=2.2.2 <3.0.0"
+  sdk: ">=2.2.1-dev.2.1 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  foundation_fluttify: ^0.1.0
+  foundation_fluttify:
+    git:
+      url: https://github.com/sen-Cai/foundation_fluttify.git
+      ref: ebdd51b5706e05396ae716d7857eabe3c1b83ee8
 
 dev_dependencies:
   flutter_test:
